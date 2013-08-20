@@ -1,0 +1,14 @@
+BoldAsFont=no
+ForegroundColour=248,248,248
+BackgroundColour=39,40,34
+FontHeight=11
+Columns=132
+Rows=40
+FontSmoothing=full
+CursorType=block
+Font=Liberation Mono
+FontIsBold=no
+Locale=C
+Charset=ISO-8859-1
+Transparency=low
+OpaqueWhenFocused=no
