@@ -1,9 +1,13 @@
 #!/bin/csh
 
+alias la     'ls -a'
+alias ll     'ls -al'
+alias ls     'ls --color=always'
 alias sub    '"C:/Program Files/Sublime Text 2/sublime_text.exe" \!* &'
 alias web    '"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe" \!* &'
 alias ping   '$SYSTEMROOT/system32/ping'
 alias exp    'explorer .'
-alias ff     'find . -name !* -print'
+alias ff     'find . -name \!* -print'
 alias cd     'cd \!* ; ls'
-alias mkdir  'mkdir \!* ; cd \!$'
+alias mkdir  'mkdir \!* ; cd \!*'
+alias chmodv 'stat --format "%a" \!*'
