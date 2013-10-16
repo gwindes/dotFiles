@@ -11,3 +11,5 @@ alias ff     'find . -name \!* -print'
 alias cd     'cd \!* ; ls'
 alias mkdir  'mkdir \!* ; cd \!*'
 alias chmodv 'stat --format "%a" \!*'
+alias clear  '/usr/bin/echo -ne "\e[2J\e[H"'
+alias cls     clear
