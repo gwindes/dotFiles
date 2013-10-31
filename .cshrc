@@ -23,4 +23,8 @@ endif
 
 setenv LS_COLORS 'ex=1;01;32'
 
+#ctrl left and ctrl right
+bindkey '^[[1;5C' forward-word
+bindkey "^[[1;5D" backward-word
+
 source aliases.csh
