@@ -13,3 +13,8 @@ alias mkdir  'mkdir \!* ; cd \!*'
 alias chmodv 'stat --format "%a" \!*'
 alias clear  '/usr/bin/echo -ne "\e[2J\e[H"'
 alias cls     clear
+
+# Git Aliases
+alias out    'git status -s | grep "M " '
+alias outu   'git status -s | grep "??" '
+
