@@ -15,7 +15,7 @@ alias chmodv 'stat --format "%a" \!*'
 alias clear  '/usr/bin/echo -ne "\e[2J\e[H"'
 alias cls     clear
 
-alias histg   'history | grep'
+alias histg   'history | grep "\!*"'
 alias gwindes '/cygdrive/c/Users/gwindes'
 
 
