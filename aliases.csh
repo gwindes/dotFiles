@@ -16,7 +16,7 @@ alias clear  '/usr/bin/echo -ne "\e[2J\e[H"'
 alias cls     clear
 
 alias histg   'history | grep "\!*"'
-alias gwindes '/cygdrive/c/Users/gwindes'
+alias gwindes 'cd /cygdrive/c/Users/Grant'
 
 
 # Git Aliases
