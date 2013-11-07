@@ -14,12 +14,9 @@ set    cyan="%{\033[1;36m%}"
 set   white="%{\033[0;37m%}"
 set     end="%{\033[0m%}" # This is needed at the end... :(
 
-if ($shell:t != tcsh && $arch != "rh_linux") then
-   alias cd 'cd \!*;set prompt="`pwd`> "'
-   set prompt="${green}`pwd`> "
-else
-   set prompt="${cyan}%S%s%B%~%b>${white} "
-endif
+#set prompt="${green}%n${blue}@%m ${white}%~ ${green}%%${end} "
+#set prompt="[${green}%n${blue}@%m ${white}%~ ]${end} "
+set prompt="${cyan}%S%s%B%~%b>${white} "
 
 setenv LS_COLORS 'ex=1;01;32'
 
