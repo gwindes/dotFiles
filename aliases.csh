@@ -2,7 +2,7 @@
 
 alias la     'ls -a'
 alias ll     'ls -al'
-alias ls     'ls --color=always'
+alias ls     'ls -A --color=always'
 alias lg      'll | grep \!*'
 alias sub    '"C:/Program Files/Sublime Text "[0-9]"/sublime_text.exe" \!* &'
 alias web    '"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe" \!* &'
