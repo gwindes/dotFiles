@@ -23,3 +23,10 @@ alias gwindes 'cd /cygdrive/c/Users/Grant'
 alias out    'git status -s | grep "M " '
 alias outu   'git status -s | grep "??" '
 
+# CD Aliases
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
+alias ..5="cd ../../../../.."
+
