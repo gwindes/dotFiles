@@ -1,0 +1,12 @@
+CursorColour=    220,  50,  47 #DC322F
+ForegroundColour=248,248,248 #F8F8F8
+BackgroundColour=39,40,34 #272822
+
+Black= 0, 0, 0 #000000
+Red= 229, 34, 34 #E52222
+Green= 166, 227, 45 #A6E32D
+Yellow= 252, 149, 30 #FC951E
+Blue= 196, 141, 255 #C48DFF
+Magenta= 250, 37, 115 #FA2573
+Cyan= 103, 217, 240 #67D9F0
+White= 242, 242, 242 #F2F2F2
