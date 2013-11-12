@@ -30,3 +30,6 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 
+# Android
+alias tablet  'adb connect 192.168.1.16:5555'
+
