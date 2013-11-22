@@ -1,5 +1,8 @@
 #!/bin/csh
 
+# Avoid DOS file path warning
+setenv CYGWIN nodosfilewarning
+
 set history=1000
 set ignoreeof
 set notify
