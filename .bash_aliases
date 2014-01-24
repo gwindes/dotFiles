@@ -16,6 +16,11 @@ alias cls=clear
 alias histg='history | grep "$*"'
 alias gwindes='cd /cygdrive/c/Users/Grant'
 
+# Python Aliases
+setenv PROGx86 `cygpath --mixed --folder 0x2A`
+setenv PROGx64 "$ProgramW6432"
+alias python  "'$PROGx64/Python27/python.exe' -tt"
+alias py32    "'$PROGx86/Python27/python.exe' -tt"
 
 # Git Aliases
 alias out='git status -s | grep "M " '
