@@ -13,6 +13,8 @@ alias chmodv='stat --format "%a" "$*"'
 alias clear='printf "\033c"'
 alias cls=clear
 
+alias devices="sudo arp-scan --interface=eth0 --localnet"
+
 alias histg='history | grep "$*"'
 alias gwindes='cd /cygdrive/c/Users/Grant'
 
