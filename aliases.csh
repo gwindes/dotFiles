@@ -19,22 +19,19 @@ alias histg   'history | grep "\!*"'
 alias gwindes 'cd /cygdrive/c/Users/Grant'
 
 # Python stuff
-setenv PROGx86 `cygpath --mixed --folder 0x2A`
-setenv PROGx64 "$ProgramW6432"
-alias python  "'$PROGx64/Python27/python.exe' -tt"
-alias py32    "'$PROGx86/Python27/python.exe' -tt"
+alias python 'C:/Python27/python.exe'
 
 # Git Aliases
 alias out    'git status -s | grep "M " '
 alias outu   'git status -s | grep "??" '
 
 # CD Aliases
-alias cdb="cd .."
-alias ..="cd .."
-alias ..2="cd ../.."
-alias ..3="cd ../../.."
-alias ..4="cd ../../../.."
-alias ..5="cd ../../../../.."
+alias cdb " cd .." 
+alias ..  " cd .." 
+alias ..2 " cd ../.." 
+alias ..3 " cd ../../.." 
+alias ..4 " cd ../../../.." 
+alias ..5 " cd ../../../../.." 
 
 # Android
 alias tablet  'adb connect 192.168.1.16:5555'
