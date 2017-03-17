@@ -1,5 +1,6 @@
 # Setup bash aliases to source from .profile
 echo 'source ~/.bash_aliases' >> .profile
+source ~/.bash_aliases
 
 #Setup Python Libs & PIP
 wget https://bootstrap.pypa.io/get-pip.py
