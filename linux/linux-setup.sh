@@ -3,6 +3,7 @@ echo 'source ~/.bash_aliases' >> .profile
 
 #Setup Python Libs & PIP
 wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
 sudo pip install bs4
 sudo pip install requests
 
