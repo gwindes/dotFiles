@@ -1,6 +1,7 @@
 alias la='ls -a'
 alias ll='ls -al'
 alias ls='ls -A --color=always'
+alias grep='grep -i'
 alias lg='ll | grep \!*'
 alias histg='history | grep'
 alias ff='find . -name \!* -print'
