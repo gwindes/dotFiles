@@ -10,6 +10,9 @@ alias clear='printf "\033c"'
 alias cls=clear
 alias cdb="cd .."
 
+#linux mint specific
+alias open="nemo"
+
 alias devices="sudo arp-scan --interface=eth0 --localnet"
 
 alias histg='history | grep "$*"'
