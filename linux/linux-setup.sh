@@ -15,6 +15,7 @@ sudo apt-get install -y wakeonlan
 sudo apt-get install -y htop
 sudo apt-get install -y synergy
 sudo apt-get install -y openssh-server
+sudo apt-get install -y git
 
 # setup MiniConda py2.7
 wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
